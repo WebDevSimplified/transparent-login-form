@@ -86,13 +86,13 @@ body {
 }
 
 .input-group .msg {
-  display: none;
+  visibility: hidden;
   font-size: .75rem;
 }
 
 .input-group.success .msg,
 .input-group.error .msg {
-  display: block;
+  visibility: visible;
 }
 
 .input-group.error .msg {
